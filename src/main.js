@@ -4,7 +4,9 @@ function setup() {
   Alpine.store('model', {
     currentPage: 'home', // 'home', 'service'
     currentLanguage: 'english',
-    dialNumber: 'dps-desk_pro@cwaengineering-sbx.rooms.webex.com',
+    dialNumber1: 'dps-desk_pro@cwaengineering-sbx.rooms.webex.com',
+    dialNumber2: '2000',
+    dialNumber3: '2001',
     services: [],
 
     init() {
@@ -13,9 +15,9 @@ function setup() {
         this.dialNumber = params.get('number');
       }
       this.services = [
-        { url: this.dialNumber, name: 'Loan' },
-        { url: this.dialNumber, name: 'Advice' },
-        { url: this.dialNumber, name: 'Credit' },
+        { url: this.dialNumber1, name: 'Loan' },
+        { url: this.dialNumber2, name: 'Advice' },
+        { url: this.dialNumber3, name: 'Credit' },
       ];
     },
     get page() {
