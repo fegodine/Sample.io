@@ -4,7 +4,7 @@ function setup() {
   Alpine.store('model', {
     currentPage: 'home', // 'home', 'service'
     currentLanguage: 'english',
-    dialNumber: 'dfw-desk_pro@cwaengineering-sbx.rooms.webex.com',
+    dialNumber: 'dps-desk_pro@cwaengineering-sbx.rooms.webex.com',
     services: [],
 
     init() {
